@@ -1,0 +1,332 @@
+{
+    "module": "sipsettings",
+    "version": null,
+    "pbx_version": null,
+    "skip_reset": false,
+    "dirs": [],
+    "files": [],
+    "configs": {
+        "kvstore": {
+            "noid": {
+                "allow.reload": "no",
+                "allowanon": "No",
+                "allowguest": "no",
+                "binds": {
+                    "udp": {
+                        "0.0.0.0": "on",
+                        "192.168.37.128": "off"
+                    },
+                    "tcp": {
+                        "0.0.0.0": "off",
+                        "192.168.37.128": "off"
+                    },
+                    "tls": {
+                        "0.0.0.0": "off",
+                        "192.168.37.128": "off"
+                    },
+                    "ws": {
+                        "0.0.0.0": "off",
+                        "192.168.37.128": "off"
+                    },
+                    "wss": {
+                        "0.0.0.0": "off",
+                        "192.168.37.128": "off"
+                    }
+                },
+                "externip": "171.76.84.200",
+                "ice-blacklist": [],
+                "ice-host-candidates": [],
+                "localnets": [
+                    {
+                        "net": "192.168.37.0",
+                        "mask": "24"
+                    }
+                ],
+                "maxcallbitrate": "384",
+                "method": "default",
+                "pjsip_allow_reload": "no",
+                "pjsip_debug": "no",
+                "pjsip_identifers_order": [
+                    "ip",
+                    "username",
+                    "anonymous",
+                    "header",
+                    "auth_username"
+                ],
+                "pjsip_keep_alive_interval": "90",
+                "pjsip_use_callerid_contact": "no",
+                "pjsip.debug": "no",
+                "pjsip.identifers.order": "[&#34;EI_ip&#34;,&#34;EI_username&#34;,&#34;EI_anonymous&#34;,&#34;EI_header&#34;,&#34;EI_auth_username&#34;]",
+                "pjsip.keep.alive.interval": "90",
+                "pjsipcertid": "",
+                "rtpchecksums": "yes",
+                "rtpend": "11000",
+                "rtpholdtimeout": "300",
+                "rtpkeepalive": "0",
+                "rtpstart": "10000",
+                "rtptimeout": "30",
+                "showadvanced": "yes",
+                "strictrtp": "Yes",
+                "stunaddr": "",
+                "t38pt.udptl": "no",
+                "taskprocessor_overload_trigger": "pjsip_only",
+                "taskprocessor.overload.trigger": "pjsip_only",
+                "tcpport-0.0.0.0": "5060",
+                "tlsport-0.0.0.0": "5061",
+                "turnaddr": "",
+                "turnpassword": "",
+                "turnusername": "",
+                "udpdomain-0.0.0.0": "",
+                "udpextip-0.0.0.0": "",
+                "udplocalnet-0.0.0.0": "",
+                "udpport-0.0.0.0": "5080",
+                "use.callerid.contact": "no",
+                "verify_client": "yes",
+                "verify_server": "yes",
+                "verify.client": "yes",
+                "verify.server": "yes",
+                "videocodecs": [],
+                "videosupport": "no",
+                "voicecodecs": {
+                    "ulaw": 1,
+                    "alaw": 2,
+                    "gsm": 3,
+                    "g726": 4,
+                    "g722": 5
+                },
+                "webrtcstunaddr": "",
+                "webrtcturnaddr": "",
+                "webrtcturnpassword": "",
+                "webrtcturnusername": ""
+            }
+        },
+        "database": [
+            {
+                "keyword": "",
+                "seq": "0",
+                "type": "9",
+                "data": ""
+            },
+            {
+                "keyword": "allowguest",
+                "seq": "10",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "bindaddr",
+                "seq": "2",
+                "type": "0",
+                "data": ""
+            },
+            {
+                "keyword": "bindport",
+                "seq": "1",
+                "type": "0",
+                "data": "5160"
+            },
+            {
+                "keyword": "callerid",
+                "seq": "0",
+                "type": "0",
+                "data": "Unknown"
+            },
+            {
+                "keyword": "callevents",
+                "seq": "0",
+                "type": "0",
+                "data": "yes"
+            },
+            {
+                "keyword": "canreinvite",
+                "seq": "10",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "checkmwi",
+                "seq": "10",
+                "type": "0",
+                "data": "10"
+            },
+            {
+                "keyword": "context",
+                "seq": "0",
+                "type": "0",
+                "data": "from-sip-external"
+            },
+            {
+                "keyword": "defaultexpiry",
+                "seq": "10",
+                "type": "0",
+                "data": "120"
+            },
+            {
+                "keyword": "externrefresh",
+                "seq": "41",
+                "type": "0",
+                "data": "120"
+            },
+            {
+                "keyword": "g726nonstandard",
+                "seq": "10",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "jbenable",
+                "seq": "4",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "jbforce",
+                "seq": "5",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "jbimpl",
+                "seq": "5",
+                "type": "0",
+                "data": "fixed"
+            },
+            {
+                "keyword": "jblog",
+                "seq": "5",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "jbmaxsize",
+                "seq": "5",
+                "type": "0",
+                "data": "200"
+            },
+            {
+                "keyword": "jbresyncthreshold",
+                "seq": "5",
+                "type": "0",
+                "data": "1000"
+            },
+            {
+                "keyword": "maxcallbitrate",
+                "seq": "10",
+                "type": "0",
+                "data": "384"
+            },
+            {
+                "keyword": "maxexpiry",
+                "seq": "10",
+                "type": "0",
+                "data": "3600"
+            },
+            {
+                "keyword": "minexpiry",
+                "seq": "10",
+                "type": "0",
+                "data": "60"
+            },
+            {
+                "keyword": "nat",
+                "seq": "39",
+                "type": "0",
+                "data": "yes"
+            },
+            {
+                "keyword": "nat_mode",
+                "seq": "10",
+                "type": "0",
+                "data": "externip"
+            },
+            {
+                "keyword": "notifyhold",
+                "seq": "10",
+                "type": "0",
+                "data": "yes"
+            },
+            {
+                "keyword": "notifyringing",
+                "seq": "10",
+                "type": "0",
+                "data": "yes"
+            },
+            {
+                "keyword": "registerattempts",
+                "seq": "10",
+                "type": "0",
+                "data": "0"
+            },
+            {
+                "keyword": "registertimeout",
+                "seq": "10",
+                "type": "0",
+                "data": "20"
+            },
+            {
+                "keyword": "rtpend",
+                "seq": "0",
+                "type": "0",
+                "data": "11000"
+            },
+            {
+                "keyword": "rtpholdtimeout",
+                "seq": "10",
+                "type": "0",
+                "data": "300"
+            },
+            {
+                "keyword": "rtpkeepalive",
+                "seq": "10",
+                "type": "0",
+                "data": "0"
+            },
+            {
+                "keyword": "rtpstart",
+                "seq": "0",
+                "type": "0",
+                "data": "10000"
+            },
+            {
+                "keyword": "rtptimeout",
+                "seq": "10",
+                "type": "0",
+                "data": "30"
+            },
+            {
+                "keyword": "srvlookup",
+                "seq": "10",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "t38pt_udptl",
+                "seq": "10",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "tcpenable",
+                "seq": "0",
+                "type": "0",
+                "data": "no"
+            },
+            {
+                "keyword": "tlsbindport",
+                "seq": "0",
+                "type": "0",
+                "data": "5161"
+            },
+            {
+                "keyword": "videosupport",
+                "seq": "10",
+                "type": "0",
+                "data": "no"
+            }
+        ]
+    },
+    "dependencies": [
+        "core"
+    ],
+    "garbage": []
+}
